@@ -28,7 +28,7 @@ data:
     service_ip: 10.96.0.2
 
   hosts_entries:
-    - ip: 192.168.77.1
+    - ip: 10.128.0.1
       names:
         - registry
 
