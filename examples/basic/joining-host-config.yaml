@@ -8,8 +8,8 @@ metadata:
     layer: site
 data:
   hostname: n0
-  ip: 192.168.77.10
-  join_ip: 192.168.77.11
+  ip: 10.128.0.2
+  join_ip: 10.128.0.3
   labels:
     dynamic:
       - ucp-control-plane=enabled
@@ -23,8 +23,8 @@ metadata:
     layer: site
 data:
   hostname: n1
-  ip: 192.168.77.11
-  join_ip: 192.168.77.10
+  ip: 10.128.0.3
+  join_ip: 10.128.0.2
   labels:
     static:
       - node-role.kubernetes.io/master=
@@ -45,8 +45,8 @@ metadata:
     layer: site
 data:
   hostname: n2
-  ip: 192.168.77.12
-  join_ip: 192.168.77.10
+  ip: 10.128.0.4
+  join_ip: 10.128.0.2
   labels:
     static:
       - node-role.kubernetes.io/master=
@@ -67,8 +67,8 @@ metadata:
     layer: site
 data:
   hostname: n3
-  ip: 192.168.77.13
-  join_ip: 192.168.77.11
+  ip: 10.128.0.5
+  join_ip: 10.128.0.2
   labels:
     static:
       - node-role.kubernetes.io/master=
